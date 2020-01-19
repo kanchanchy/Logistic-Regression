@@ -30,7 +30,7 @@ def logistic_regression(features, target, num_steps, learning_rate, add_intercep
 
 #Starting main
 #loading dataset
-Numpyfile= scipy.io.loadmat('mnist_data.mat')
+Numpyfile= scipy.io.loadmat('data/mnist_data.mat')
 
 #separating training and testing data and labels
 trainX = Numpyfile['trX']
